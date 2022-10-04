@@ -9,7 +9,7 @@ void main(void)
 float PRE, NPR;
 printf("ingrese el precio del producto: ");
 scanf("%f", &PRE); /* Estas lineas se expresa cual sera la variable y luego quien sera mayor*/
-if (PRE < 1500)
+if (PRE < 1500)    /*Expresion de la variable*/
 {
 	NPR = PRE * 1.11;
 	printf("\nnuevo precio: %7.2f", NPR);
